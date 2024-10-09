@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/tvResSin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sin ViewModel: 0"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:id="@+id/tvResCon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Con ViewModel: 0"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/btIIcrementarSin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Incrementar"
+        android:layout_marginBottom="16dp"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/btIncrementarCon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Incrementar estable"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
